@@ -25,8 +25,7 @@ class MousetrapTags extends Tags
     public function js()
     {
     	$files = array('mousetrap.min.js', 'statamic-mousetrap.js');
-    	$theme_settings = Config::get('theming');
-    	$theme = $theme_settings['theme'];
+    	$theme = Config::get('theming.theme');
     	
     	$scripts = '';
     	
