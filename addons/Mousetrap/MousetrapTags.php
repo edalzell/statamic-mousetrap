@@ -3,20 +3,9 @@
 namespace Statamic\Addons\Mousetrap;
 
 use Statamic\Extend\Tags;
-use Statamic\API\Config;
-use Statamic\API\Path;
 
 class MousetrapTags extends Tags
 {
-    /**
-     * The {{ mousetrap }} tag
-     *
-     * @return string|array
-     */
-    public function index()
-    {
-    }
-
     /**
      * The {{ mousetrap:js }} tag
      *
@@ -28,7 +17,7 @@ class MousetrapTags extends Tags
     	$scripts = '';
     	
     	foreach ($files as $file) {
-    		$scripts .= '<script src="' . Path::assemble(Config::getThemePath(), 'js', $file) . '"></script>';
+    		$scripts .= $this->js->tag($file);
         }
         
         return $scripts;
