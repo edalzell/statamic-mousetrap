@@ -4,7 +4,7 @@ statamic-mousetrap
 A Statamic V2 add-on that allows you to edit your content in the CP by pressing `Esc` anywhere on your site.
 
 ## Installing
-1. Copy the "addons" folder contents to your Statamic `site` directory;
+1. Copy the `Mousetrap` folder to your addons directory;
 
 ## Usage
 
