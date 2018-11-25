@@ -1,6 +1,6 @@
 name: Mousetrap
-version: 1.0
-description: "Allows you to get to your site's Dasboard via the Escape key"
+version: 1.1
+description: "Go directly to the content in the CP to edit it"
 url: https://github.com/edalzell/statamic-mousetrap
 developer: Erin Dalzell
 developer_url: https://github.com/edalzell
